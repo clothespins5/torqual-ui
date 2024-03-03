@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  ui-lib:
+    build: .
+    container_name: ui-lib
+    volumes:
+      - ./workspace:/workspace
+    tty: true

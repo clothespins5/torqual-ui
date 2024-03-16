@@ -1,0 +1,20 @@
+<div class="header">
+  <lib-top-bar>torqual</lib-top-bar>
+</div>
+<div class="contents">
+  <div class="left">
+    <lib-side-nav
+      [sidenavItems]="leftNavItems"
+      (sidenavItemClick)="leftNavItemClick.emit($event)"
+    />
+  </div>
+  <div class="center">
+    <ng-content select="[center]"></ng-content>
+  </div>
+  <div class="right">
+    <lib-side-nav
+      [sidenavItems]="rightNavItems"
+      (sidenavItemClick)="rightNavItemClick.emit($event)"
+    />
+  </div>
+</div>

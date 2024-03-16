@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.header {
+  height: fit-content;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+
+  .left > * {
+    height: 100%;
+    width: 100%;
+  }
+
+  .center {
+    flex-grow: 1;
+  }
+}

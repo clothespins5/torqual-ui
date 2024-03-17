@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ui-lib": {
+    "torqual-ui": {
       "projectType": "library",
-      "root": "projects/ui-lib",
-      "sourceRoot": "projects/ui-lib/src",
+      "root": "projects/torqual-ui",
+      "sourceRoot": "projects/torqual-ui/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ui-lib/ng-package.json"
+            "project": "projects/torqual-ui/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ui-lib/tsconfig.lib.prod.json"
+              "tsConfig": "projects/torqual-ui/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ui-lib/tsconfig.lib.json"
+              "tsConfig": "projects/torqual-ui/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/ui-lib/tsconfig.spec.json",
+            "tsConfig": "projects/torqual-ui/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -37,14 +37,14 @@
         "storybook": {
           "builder": "@storybook/angular:start-storybook",
           "options": {
-            "configDir": "projects/ui-lib/.storybook",
-            "browserTarget": "ui-lib:build",
+            "configDir": "projects/torqual-ui/.storybook",
+            "browserTarget": "torqual-ui:build",
             "compodoc": true,
             "compodocArgs": [
               "-e",
               "json",
               "-d",
-              "projects/ui-lib"
+              "projects/torqual-ui"
             ],
             "port": 6006
           }
@@ -52,14 +52,14 @@
         "build-storybook": {
           "builder": "@storybook/angular:build-storybook",
           "options": {
-            "configDir": "projects/ui-lib/.storybook",
-            "browserTarget": "ui-lib:build",
+            "configDir": "projects/torqual-ui/.storybook",
+            "browserTarget": "torqual-ui:build",
             "compodoc": true,
             "compodocArgs": [
               "-e",
               "json",
               "-d",
-              "projects/ui-lib"
+              "projects/torqual-ui"
             ],
             "outputDir": "storybook-static"
           }

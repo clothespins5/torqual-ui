@@ -21,8 +21,8 @@ export const Example: Story = {
   }),
   args: {
     sidenavItems: [
-      {id: SidenavItemId('1'), icon: SidenavItemIcon('home'),},
-      {id: SidenavItemId('2'), icon: SidenavItemIcon('gavel'),}
+      {id: '1', icon: 'home',},
+      {id: '2', icon: 'gavel',}
     ],
   },
 };

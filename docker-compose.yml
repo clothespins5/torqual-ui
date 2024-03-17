@@ -1,11 +1,11 @@
 version: "3.9"
 services:
-  ui-lib:
+  torqual-ui:
     build: .
-    container_name: ui-lib
+    container_name: torqual-ui
     volumes:
       - ./workspace:/workspace
     ports:
       - "6006:6006"
-    command: ng run ui-lib:storybook --host=0.0.0.0
+    command: ng run torqual-ui:storybook --host=0.0.0.0
     tty: true

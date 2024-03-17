@@ -10,7 +10,7 @@
         {
             "name": "ButtonComponent",
             "id": "component-ButtonComponent-903299ddccfd35e798a18347fdc3cf1a0da545de14b6bf946cf903c3241f8a505ff22086891d6e4d3dca912035bd11702aed39e3bcbbf167f19d7effda505a29",
-            "file": "projects/ui-lib/src/stories/atoms/button/button.component.ts",
+            "file": "projects/torqual-ui/src/stories/atoms/button/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -59,7 +59,7 @@
         {
             "name": "IconComponent",
             "id": "component-IconComponent-f1afafb8123b97af05c89f874587b84ee020fda024652c06546762021dbb137b79860437da83af26cf6cbaae830c8f213a2cc6ec4cc6666f3fb326cafbf4ad34",
-            "file": "projects/ui-lib/src/stories/atoms/icon/icon.component.ts",
+            "file": "projects/torqual-ui/src/stories/atoms/icon/icon.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -108,7 +108,7 @@
         {
             "name": "ManagementPageTemplateComponent",
             "id": "component-ManagementPageTemplateComponent-31d630f08b3033f1ce1db3867288cda34afc99399b2fb9eb9da7b7b56a93b8c077dcbbc5b005b4dc8bdada40b432a0bdc5233495500b928156ac89c23d8f2d29",
-            "file": "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.component.ts",
+            "file": "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -157,7 +157,7 @@
         {
             "name": "ResourceHeaderComponent",
             "id": "component-ResourceHeaderComponent-7e9d73beb3426cd70ad72924b102ba13ce7701032b47d51aee0b413fa11f6b07104845519d870bc452c9da025b811603f57963166cba0d1de55f42853f457a63",
-            "file": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.component.ts",
+            "file": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -217,7 +217,7 @@
         {
             "name": "ResourcePageTemplateComponent",
             "id": "component-ResourcePageTemplateComponent-dd310f7409cc77e62301acad60688736baa9146a257dbace698046c2c0a6d8127d861a7d0d2a405fe2f121317c02066f520be88d0166b411b5ef6d8b1ac32150",
-            "file": "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.component.ts",
+            "file": "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -281,7 +281,7 @@
         {
             "name": "SideNavComponent",
             "id": "component-SideNavComponent-8a07f5a0e1482a9deb5c186c2d9cfe6ffd7e693ff0c636296cf3d37fc5a0fc750257754cabf45b3b91271eb5b71159eb728268c4e1fb80d40fe41d4876a379b0",
-            "file": "projects/ui-lib/src/stories/organisms/side-nav/side-nav.component.ts",
+            "file": "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -352,8 +352,8 @@
         },
         {
             "name": "TopBarComponent",
-            "id": "component-TopBarComponent-fb677d577084661eb1350843a84ce00501c912d372543524b18e643b73721e38beffe84b10d4f4e64e4450bb3acf9abe79bf58270094e70f4b1fcb68d2a2970d",
-            "file": "projects/ui-lib/src/stories/molecules/top-bar/top-bar.component.ts",
+            "id": "component-TopBarComponent-cf10bcb3afe53ea6484563c27ff15fed9585d64aa5bacd4855aa528f8d865483a5bdda98f3a80a93549adf9f38587bb84063a7d4268b4d1786c36f99e871a896",
+            "file": "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -387,7 +387,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {Component, Input} from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\n@Component({\n  selector: 'lib-top-bar',\n  standalone: true,\n  imports: [CommonModule],\n  templateUrl: './top-bar.component.html',\n  styleUrls: ['./top-bar.component.css']\n})\nexport class TopBarComponent {\n}\n",
+            "sourceCode": "import {Component} from '@angular/core';\nimport {CommonModule} from '@angular/common';\n\n@Component({\n  selector: 'lib-top-bar',\n  standalone: true,\n  imports: [CommonModule],\n  templateUrl: './top-bar.component.html',\n  styleUrls: ['./top-bar.component.css']\n})\nexport class TopBarComponent {\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -402,7 +402,7 @@
         {
             "name": "TopPageTemplateComponent",
             "id": "component-TopPageTemplateComponent-338a9091d03a8f522b6200ca3c6b40e7aaa3658fd43feacaeee2c89689cc56384272941594cc057b77e8d6c3b2a22b2e933121ac2923babfca07a787b598d0bd",
-            "file": "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.component.ts",
+            "file": "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -500,17 +500,17 @@
                 "name": "Example",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/atoms/icon/icon.stories.ts",
+                "file": "projects/torqual-ui/src/stories/atoms/icon/icon.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <lib-icon>title</lib-icon>\n    `,\n  }),\n}"
+                "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <lib-icon>star</lib-icon>\n    `,\n  }),\n}"
             },
             {
                 "name": "Example",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/molecules/top-bar/top-bar.stories.ts",
+                "file": "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -520,7 +520,37 @@
                 "name": "Example",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.stories.ts",
+                "file": "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-management-page-template\n          style=\"height: 100%\"\n          ${argsToTemplate(args)}\n        >\n            <div header>ng-content select=\"[header]\"</div>\n            <div left>ng-content select=\"[left]\"</div>\n            <div right>ng-content select=\"[right]\"</div>\n        </lib-management-page-template>\n      </div>\n      `,\n  }),\n}"
+            },
+            {
+                "name": "Example",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  render: (args) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-resource-page-template ${argsToTemplate(args)}>\n          <div body style=\"height: 100px\">ng-content select=\"[body]</div>\n        </lib-resource-page-template>\n      </div>\n      `,\n  }),\n  args: {\n    resourceHeader: ResourceHeader.Example.args?.input,\n  },\n}"
+            },
+            {
+                "name": "Example",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  render: ({...args}) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-top-page-template ${argsToTemplate(args)}>\n          <div center>\n            <div>ng-content select=\"[center]\"</div>\n          </div>\n        </lib-top-page-template>\n      </div>\n      `,\n  }),\n  args: {\n    leftNavItems: SideNavi.Example.args?.sidenavItems,\n    rightNavItems: [\n      {id: SidenavItemId('1'), icon: SidenavItemIcon('settings'),},\n      {id: SidenavItemId('2'), icon: SidenavItemIcon('star'),}\n    ],\n  },\n}"
+            },
+            {
+                "name": "Example",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -530,47 +560,17 @@
                 "name": "Example",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/organisms/side-nav/side-nav.stories.ts",
+                "file": "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <lib-side-nav ${argsToTemplate(args)}></lib-side-nav>\n      `,\n  }),\n  args: {\n    sidenavItems: [\n      {id: SidenavItemId('1'), icon: SidenavItemIcon('home'),},\n      {id: SidenavItemId('2'), icon: SidenavItemIcon('gavel'),}\n    ],\n  },\n}"
             },
             {
-                "name": "Example",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-management-page-template\n          style=\"height: 100%\"\n          ${argsToTemplate(args)}\n        >\n            <div header>a</div>\n            <div left>b</div>\n            <div right>c</div>\n        </lib-management-page-template>\n      </div>\n      `,\n  }),\n}"
-            },
-            {
-                "name": "Example",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\n  render: (args, context) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-resource-page-template ${argsToTemplate(args)}>\n          <div body style=\"height: 100px\">ng-content select=\"[body]</div>\n        </lib-resource-page-template>\n      </div>\n      `,\n  }),\n  args: {\n    resourceHeader: ResourceHeader.Example.args?.input,\n  },\n}"
-            },
-            {
-                "name": "Example",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\n  render: ({...args}) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-top-page-template ${argsToTemplate(args)}>\n          <div center>\n            <div>ng-content select=\"[center]\"</div>\n          </div>\n        </lib-top-page-template>\n      </div>\n      `,\n  }),\n  args: {\n    leftNavItems: SideNavi.Example.args?.sidenavItems,\n    rightNavItems: [\n      {id: SidenavItemId('1'), icon: SidenavItemIcon('settings'),},\n      {id: SidenavItemId('2'), icon: SidenavItemIcon('star'),}\n    ],\n  },\n}"
-            },
-            {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/atoms/button/button.stories.ts",
+                "file": "projects/torqual-ui/src/stories/atoms/button/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ButtonComponent>",
@@ -580,17 +580,17 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/atoms/icon/icon.stories.ts",
+                "file": "projects/torqual-ui/src/stories/atoms/icon/icon.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<IconComponent>",
-                "defaultValue": "{\n  title: 'Atoms/Icon',\n  component: TopBarComponent,\n  tags: ['autodocs'],\n}"
+                "defaultValue": "{\n  title: 'Atoms/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n}"
             },
             {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/molecules/top-bar/top-bar.stories.ts",
+                "file": "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<TopBarComponent>",
@@ -600,27 +600,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<ResourceHeaderComponent>",
-                "defaultValue": "{\n  title: 'Organisms/ResourceHeader',\n  component: ResourceHeaderComponent,\n  tags: ['autodocs'],\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/organisms/side-nav/side-nav.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<SideNavComponent>",
-                "defaultValue": "{\n  title: 'Organisms/SideNav',\n  component: SideNavComponent,\n  tags: ['autodocs'],\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.stories.ts",
+                "file": "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ManagementPageTemplateComponent>",
@@ -630,7 +610,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
+                "file": "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ResourcePageTemplateComponent>",
@@ -640,17 +620,37 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.stories.ts",
+                "file": "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<TopPageTemplateComponent>",
                 "defaultValue": "{\n  title: 'Templates/TopPageTemplate',\n  component: TopPageTemplateComponent,\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      imports: [SideNavComponent],\n    }),\n  ],\n}"
             },
             {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<ResourceHeaderComponent>",
+                "defaultValue": "{\n  title: 'Organisms/ResourceHeader',\n  component: ResourceHeaderComponent,\n  tags: ['autodocs'],\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<SideNavComponent>",
+                "defaultValue": "{\n  title: 'Organisms/SideNav',\n  component: SideNavComponent,\n  tags: ['autodocs'],\n}"
+            },
+            {
                 "name": "preview",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/.storybook/preview.ts",
+                "file": "projects/torqual-ui/.storybook/preview.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Preview",
@@ -660,7 +660,7 @@
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ui-lib/src/stories/atoms/button/button.stories.ts",
+                "file": "projects/torqual-ui/src/stories/atoms/button/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -670,7 +670,7 @@
         "functions": [
             {
                 "name": "SidenavItemIcon",
-                "file": "projects/ui-lib/src/models/sidenav.ts",
+                "file": "projects/torqual-ui/src/models/sidenav.ts",
                 "ctype": "miscellaneous",
                 "subtype": "function",
                 "deprecated": false,
@@ -698,7 +698,7 @@
             },
             {
                 "name": "SidenavItemId",
-                "file": "projects/ui-lib/src/models/sidenav.ts",
+                "file": "projects/torqual-ui/src/models/sidenav.ts",
                 "ctype": "miscellaneous",
                 "subtype": "function",
                 "deprecated": false,
@@ -731,7 +731,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "",
-                "file": "projects/ui-lib/src/lib/brand.ts",
+                "file": "projects/torqual-ui/src/lib/brand.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -742,7 +742,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "string | number | boolean |  | Date",
-                "file": "projects/ui-lib/src/lib/brand.ts",
+                "file": "projects/torqual-ui/src/lib/brand.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -753,7 +753,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "literal type",
-                "file": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.component.ts",
+                "file": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.component.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -764,7 +764,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "literal type",
-                "file": "projects/ui-lib/src/models/sidenav.ts",
+                "file": "projects/torqual-ui/src/models/sidenav.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -775,7 +775,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "Brand<string | SidenavItemName>",
-                "file": "projects/ui-lib/src/models/sidenav.ts",
+                "file": "projects/torqual-ui/src/models/sidenav.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -786,7 +786,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "Brand<string | SidenavItemId>",
-                "file": "projects/ui-lib/src/models/sidenav.ts",
+                "file": "projects/torqual-ui/src/models/sidenav.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -797,7 +797,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<ButtonComponent>",
-                "file": "projects/ui-lib/src/stories/atoms/button/button.stories.ts",
+                "file": "projects/torqual-ui/src/stories/atoms/button/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -808,7 +808,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<IconComponent>",
-                "file": "projects/ui-lib/src/stories/atoms/icon/icon.stories.ts",
+                "file": "projects/torqual-ui/src/stories/atoms/icon/icon.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -819,29 +819,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<TopBarComponent>",
-                "file": "projects/ui-lib/src/stories/molecules/top-bar/top-bar.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 183
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
-                "rawtype": "StoryObj<ResourceHeaderComponent>",
-                "file": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 183
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
-                "rawtype": "StoryObj<SideNavComponent>",
-                "file": "projects/ui-lib/src/stories/organisms/side-nav/side-nav.stories.ts",
+                "file": "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -852,7 +830,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<ManagementPageTemplateComponent>",
-                "file": "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.stories.ts",
+                "file": "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -863,7 +841,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<ResourcePageTemplateComponent>",
-                "file": "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
+                "file": "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -874,7 +852,29 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<TopPageTemplateComponent>",
-                "file": "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.stories.ts",
+                "file": "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<ResourceHeaderComponent>",
+                "file": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<SideNavComponent>",
+                "file": "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -883,34 +883,34 @@
         ],
         "enumerations": [],
         "groupedVariables": {
-            "projects/ui-lib/src/stories/atoms/icon/icon.stories.ts": [
+            "projects/torqual-ui/src/stories/atoms/icon/icon.stories.ts": [
                 {
                     "name": "Example",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/atoms/icon/icon.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/atoms/icon/icon.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <lib-icon>title</lib-icon>\n    `,\n  }),\n}"
+                    "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <lib-icon>star</lib-icon>\n    `,\n  }),\n}"
                 },
                 {
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/atoms/icon/icon.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/atoms/icon/icon.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<IconComponent>",
-                    "defaultValue": "{\n  title: 'Atoms/Icon',\n  component: TopBarComponent,\n  tags: ['autodocs'],\n}"
+                    "defaultValue": "{\n  title: 'Atoms/Icon',\n  component: IconComponent,\n  tags: ['autodocs'],\n}"
                 }
             ],
-            "projects/ui-lib/src/stories/molecules/top-bar/top-bar.stories.ts": [
+            "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.stories.ts": [
                 {
                     "name": "Example",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/molecules/top-bar/top-bar.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -920,107 +920,63 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/molecules/top-bar/top-bar.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<TopBarComponent>",
                     "defaultValue": "{\n  title: 'Molecules/TopBar',\n  component: TopBarComponent,\n  tags: ['autodocs'],\n}"
                 }
             ],
-            "projects/ui-lib/src/stories/organisms/resource-header/resource-header.stories.ts": [
+            "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.stories.ts": [
                 {
                     "name": "Example",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-resource-header ${argsToTemplate(args)}/>\n      </div>\n      `,\n  }),\n  args: {\n    input: {\n      number: 1,\n      name: 'name',\n      type: 'type'\n    }\n  },\n}"
+                    "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-management-page-template\n          style=\"height: 100%\"\n          ${argsToTemplate(args)}\n        >\n            <div header>ng-content select=\"[header]\"</div>\n            <div left>ng-content select=\"[left]\"</div>\n            <div right>ng-content select=\"[right]\"</div>\n        </lib-management-page-template>\n      </div>\n      `,\n  }),\n}"
                 },
                 {
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<ResourceHeaderComponent>",
-                    "defaultValue": "{\n  title: 'Organisms/ResourceHeader',\n  component: ResourceHeaderComponent,\n  tags: ['autodocs'],\n}"
-                }
-            ],
-            "projects/ui-lib/src/stories/organisms/side-nav/side-nav.stories.ts": [
-                {
-                    "name": "Example",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/organisms/side-nav/side-nav.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <lib-side-nav ${argsToTemplate(args)}></lib-side-nav>\n      `,\n  }),\n  args: {\n    sidenavItems: [\n      {id: SidenavItemId('1'), icon: SidenavItemIcon('home'),},\n      {id: SidenavItemId('2'), icon: SidenavItemIcon('gavel'),}\n    ],\n  },\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/organisms/side-nav/side-nav.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<SideNavComponent>",
-                    "defaultValue": "{\n  title: 'Organisms/SideNav',\n  component: SideNavComponent,\n  tags: ['autodocs'],\n}"
-                }
-            ],
-            "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.stories.ts": [
-                {
-                    "name": "Example",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-management-page-template\n          style=\"height: 100%\"\n          ${argsToTemplate(args)}\n        >\n            <div header>a</div>\n            <div left>b</div>\n            <div right>c</div>\n        </lib-management-page-template>\n      </div>\n      `,\n  }),\n}"
-                },
-                {
-                    "name": "meta",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ManagementPageTemplateComponent>",
                     "defaultValue": "{\n  title: 'Templates/ManagementPageTemplate',\n  component: ManagementPageTemplateComponent,\n  tags: ['autodocs'],\n}"
                 }
             ],
-            "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.stories.ts": [
+            "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.stories.ts": [
                 {
                     "name": "Example",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\n  render: (args, context) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-resource-page-template ${argsToTemplate(args)}>\n          <div body style=\"height: 100px\">ng-content select=\"[body]</div>\n        </lib-resource-page-template>\n      </div>\n      `,\n  }),\n  args: {\n    resourceHeader: ResourceHeader.Example.args?.input,\n  },\n}"
+                    "defaultValue": "{\n  render: (args) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-resource-page-template ${argsToTemplate(args)}>\n          <div body style=\"height: 100px\">ng-content select=\"[body]</div>\n        </lib-resource-page-template>\n      </div>\n      `,\n  }),\n  args: {\n    resourceHeader: ResourceHeader.Example.args?.input,\n  },\n}"
                 },
                 {
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ResourcePageTemplateComponent>",
                     "defaultValue": "{\n  title: 'Templates/ResourcePageTemplate',\n  component: ResourcePageTemplateComponent,\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      imports: [ResourceHeaderComponent],\n    }),\n  ],\n}"
                 }
             ],
-            "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.stories.ts": [
+            "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.stories.ts": [
                 {
                     "name": "Example",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -1030,19 +986,63 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<TopPageTemplateComponent>",
                     "defaultValue": "{\n  title: 'Templates/TopPageTemplate',\n  component: TopPageTemplateComponent,\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      imports: [SideNavComponent],\n    }),\n  ],\n}"
                 }
             ],
-            "projects/ui-lib/src/stories/atoms/button/button.stories.ts": [
+            "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.stories.ts": [
+                {
+                    "name": "Example",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <div style=\"height: 300px\">\n        <lib-resource-header ${argsToTemplate(args)}/>\n      </div>\n      `,\n  }),\n  args: {\n    input: {\n      number: 1,\n      name: 'name',\n      type: 'type'\n    }\n  },\n}"
+                },
                 {
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/atoms/button/button.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<ResourceHeaderComponent>",
+                    "defaultValue": "{\n  title: 'Organisms/ResourceHeader',\n  component: ResourceHeaderComponent,\n  tags: ['autodocs'],\n}"
+                }
+            ],
+            "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.stories.ts": [
+                {
+                    "name": "Example",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  render: ({ ...args }) => ({\n    props: args,\n    template: `\n      <lib-side-nav ${argsToTemplate(args)}></lib-side-nav>\n      `,\n  }),\n  args: {\n    sidenavItems: [\n      {id: SidenavItemId('1'), icon: SidenavItemIcon('home'),},\n      {id: SidenavItemId('2'), icon: SidenavItemIcon('gavel'),}\n    ],\n  },\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<SideNavComponent>",
+                    "defaultValue": "{\n  title: 'Organisms/SideNav',\n  component: SideNavComponent,\n  tags: ['autodocs'],\n}"
+                }
+            ],
+            "projects/torqual-ui/src/stories/atoms/button/button.stories.ts": [
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/torqual-ui/src/stories/atoms/button/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ButtonComponent>",
@@ -1052,19 +1052,19 @@
                     "name": "Primary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/src/stories/atoms/button/button.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/atoms/button/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\n  args: {\n    primary: true,\n    label: 'Button',\n  },\n}"
                 }
             ],
-            "projects/ui-lib/.storybook/preview.ts": [
+            "projects/torqual-ui/.storybook/preview.ts": [
                 {
                     "name": "preview",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/ui-lib/.storybook/preview.ts",
+                    "file": "projects/torqual-ui/.storybook/preview.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Preview",
@@ -1073,10 +1073,10 @@
             ]
         },
         "groupedFunctions": {
-            "projects/ui-lib/src/models/sidenav.ts": [
+            "projects/torqual-ui/src/models/sidenav.ts": [
                 {
                     "name": "SidenavItemIcon",
-                    "file": "projects/ui-lib/src/models/sidenav.ts",
+                    "file": "projects/torqual-ui/src/models/sidenav.ts",
                     "ctype": "miscellaneous",
                     "subtype": "function",
                     "deprecated": false,
@@ -1104,7 +1104,7 @@
                 },
                 {
                     "name": "SidenavItemId",
-                    "file": "projects/ui-lib/src/models/sidenav.ts",
+                    "file": "projects/torqual-ui/src/models/sidenav.ts",
                     "ctype": "miscellaneous",
                     "subtype": "function",
                     "deprecated": false,
@@ -1134,13 +1134,13 @@
         },
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "projects/ui-lib/src/lib/brand.ts": [
+            "projects/torqual-ui/src/lib/brand.ts": [
                 {
                     "name": "Brand",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "",
-                    "file": "projects/ui-lib/src/lib/brand.ts",
+                    "file": "projects/torqual-ui/src/lib/brand.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -1151,33 +1151,33 @@
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "string | number | boolean |  | Date",
-                    "file": "projects/ui-lib/src/lib/brand.ts",
+                    "file": "projects/torqual-ui/src/lib/brand.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 192
                 }
             ],
-            "projects/ui-lib/src/stories/organisms/resource-header/resource-header.component.ts": [
+            "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.component.ts": [
                 {
                     "name": "ResourceHeaderInput",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "literal type",
-                    "file": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.component.ts",
+                    "file": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.component.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 187
                 }
             ],
-            "projects/ui-lib/src/models/sidenav.ts": [
+            "projects/torqual-ui/src/models/sidenav.ts": [
                 {
                     "name": "SidenavItem",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "literal type",
-                    "file": "projects/ui-lib/src/models/sidenav.ts",
+                    "file": "projects/torqual-ui/src/models/sidenav.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -1188,7 +1188,7 @@
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "Brand<string | SidenavItemName>",
-                    "file": "projects/ui-lib/src/models/sidenav.ts",
+                    "file": "projects/torqual-ui/src/models/sidenav.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -1199,111 +1199,111 @@
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "Brand<string | SidenavItemId>",
-                    "file": "projects/ui-lib/src/models/sidenav.ts",
+                    "file": "projects/torqual-ui/src/models/sidenav.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/ui-lib/src/stories/atoms/button/button.stories.ts": [
+            "projects/torqual-ui/src/stories/atoms/button/button.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<ButtonComponent>",
-                    "file": "projects/ui-lib/src/stories/atoms/button/button.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/atoms/button/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/ui-lib/src/stories/atoms/icon/icon.stories.ts": [
+            "projects/torqual-ui/src/stories/atoms/icon/icon.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<IconComponent>",
-                    "file": "projects/ui-lib/src/stories/atoms/icon/icon.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/atoms/icon/icon.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/ui-lib/src/stories/molecules/top-bar/top-bar.stories.ts": [
+            "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<TopBarComponent>",
-                    "file": "projects/ui-lib/src/stories/molecules/top-bar/top-bar.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/ui-lib/src/stories/organisms/resource-header/resource-header.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<ResourceHeaderComponent>",
-                    "file": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
-            "projects/ui-lib/src/stories/organisms/side-nav/side-nav.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<SideNavComponent>",
-                    "file": "projects/ui-lib/src/stories/organisms/side-nav/side-nav.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
-            "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.stories.ts": [
+            "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<ManagementPageTemplateComponent>",
-                    "file": "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.stories.ts": [
+            "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<ResourcePageTemplateComponent>",
-                    "file": "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.stories.ts": [
+            "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<TopPageTemplateComponent>",
-                    "file": "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.stories.ts",
+                    "file": "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<ResourceHeaderComponent>",
+                    "file": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<SideNavComponent>",
+                    "file": "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -1318,7 +1318,7 @@
         "status": "low",
         "files": [
             {
-                "filePath": "projects/ui-lib/.storybook/preview.ts",
+                "filePath": "projects/torqual-ui/.storybook/preview.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1328,7 +1328,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/models/sidenav.ts",
+                "filePath": "projects/torqual-ui/src/models/sidenav.ts",
                 "type": "function",
                 "linktype": "miscellaneous",
                 "linksubtype": "function",
@@ -1338,7 +1338,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/models/sidenav.ts",
+                "filePath": "projects/torqual-ui/src/models/sidenav.ts",
                 "type": "function",
                 "linktype": "miscellaneous",
                 "linksubtype": "function",
@@ -1348,7 +1348,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/atoms/button/button.component.ts",
+                "filePath": "projects/torqual-ui/src/stories/atoms/button/button.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "ButtonComponent",
@@ -1357,7 +1357,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/atoms/button/button.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/atoms/button/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1367,7 +1367,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/atoms/button/button.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/atoms/button/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1377,7 +1377,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/atoms/icon/icon.component.ts",
+                "filePath": "projects/torqual-ui/src/stories/atoms/icon/icon.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "IconComponent",
@@ -1386,7 +1386,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/atoms/icon/icon.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/atoms/icon/icon.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1396,7 +1396,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/atoms/icon/icon.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/atoms/icon/icon.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1406,7 +1406,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/molecules/top-bar/top-bar.component.ts",
+                "filePath": "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "TopBarComponent",
@@ -1415,7 +1415,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/molecules/top-bar/top-bar.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1425,7 +1425,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/molecules/top-bar/top-bar.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/molecules/top-bar/top-bar.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1435,7 +1435,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.component.ts",
+                "filePath": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "ResourceHeaderComponent",
@@ -1444,7 +1444,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1454,7 +1454,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/organisms/resource-header/resource-header.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/organisms/resource-header/resource-header.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1464,7 +1464,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/organisms/side-nav/side-nav.component.ts",
+                "filePath": "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "SideNavComponent",
@@ -1473,7 +1473,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/organisms/side-nav/side-nav.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1483,7 +1483,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/organisms/side-nav/side-nav.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/organisms/side-nav/side-nav.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1493,7 +1493,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.component.ts",
+                "filePath": "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "ManagementPageTemplateComponent",
@@ -1502,7 +1502,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1512,7 +1512,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/templates/management-page-template/management-page-template.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/templates/management-page-template/management-page-template.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1522,7 +1522,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.component.ts",
+                "filePath": "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "ResourcePageTemplateComponent",
@@ -1531,7 +1531,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1541,7 +1541,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/templates/resource-page-template/resource-page-template.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1551,7 +1551,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.component.ts",
+                "filePath": "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "TopPageTemplateComponent",
@@ -1560,7 +1560,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1570,7 +1570,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/ui-lib/src/stories/templates/top-page-template/top-page-template.stories.ts",
+                "filePath": "projects/torqual-ui/src/stories/templates/top-page-template/top-page-template.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",

@@ -1,7 +1,6 @@
 import type {Meta, StoryObj} from '@storybook/angular';
-import {SideNavComponent} from "./side-nav.component";
-import {SidenavItemId, SidenavItemIcon} from "../../../models/sidenav";
 import {argsToTemplate} from "@storybook/angular";
+import {SideNavComponent} from "./side-nav.component";
 
 const meta: Meta<SideNavComponent> = {
   title: 'Organisms/SideNav',

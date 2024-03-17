@@ -1,6 +1,7 @@
 :host {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .body {
@@ -11,7 +12,6 @@
 
   .left {
     width: 50%;
-    height: 100%;
   }
 
   .right {

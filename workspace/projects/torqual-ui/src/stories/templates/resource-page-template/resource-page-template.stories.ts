@@ -24,7 +24,7 @@ export const Example: Story = {
     template: `
       <div style="height: 300px">
         <lib-resource-page-template ${argsToTemplate(args)}>
-          <div body style="height: 100px">ng-content select="[body]</div>
+          <div body>ng-content select="[body]</div>
         </lib-resource-page-template>
       </div>
       `,

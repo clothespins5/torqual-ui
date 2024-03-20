@@ -23,8 +23,8 @@ export const Example: Story = {
   args: {
     input: {
       number: 1,
-      name: 'name',
-      type: 'type'
+      name: 'Resource Name 1',
+      type: 'Resource Type 1'
     }
   },
 };

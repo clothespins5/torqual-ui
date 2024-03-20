@@ -4,7 +4,7 @@
 <div class="contents">
   <div class="left">
     <lib-side-nav
-      [sidenavItems]="leftNavItems"
+      [sidenavItems]="input.leftNavItems"
       (sidenavItemClick)="leftNavItemClick.emit($event)"
     />
   </div>
@@ -13,7 +13,7 @@
   </div>
   <div class="right">
     <lib-side-nav
-      [sidenavItems]="rightNavItems"
+      [sidenavItems]="input.rightNavItems"
       (sidenavItemClick)="rightNavItemClick.emit($event)"
     />
   </div>

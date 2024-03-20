@@ -1,5 +1,9 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+export type ManagementPageTemplateInput = {
+  title: string,
+}
 
 @Component({
   selector: 'lib-management-page-template',
@@ -9,5 +13,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./management-page-template.component.css']
 })
 export class ManagementPageTemplateComponent {
-
+  @Input({required: true}) input!: ManagementPageTemplateInput
 }

@@ -16,15 +16,16 @@ export const Example: Story = {
     props: args,
     template: `
       <div style="height: 300px">
-        <lib-management-page-template
-          style="height: 100%"
-          ${argsToTemplate(args)}
-        >
-            <div header>ng-content select="[header]"</div>
+        <lib-management-page-template ${argsToTemplate(args)}>
             <div left>ng-content select="[left]"</div>
             <div right>ng-content select="[right]"</div>
         </lib-management-page-template>
       </div>
       `,
   }),
+  args: {
+    input: {
+      title: 'Example Title'
+    }
+  }
 };

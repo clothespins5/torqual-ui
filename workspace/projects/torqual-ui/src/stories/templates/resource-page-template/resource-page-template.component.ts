@@ -10,6 +10,6 @@ import {ResourceHeaderComponent, ResourceHeaderInput} from "../../organisms/reso
   styleUrls: ['./resource-page-template.component.css']
 })
 export class ResourcePageTemplateComponent {
-  @Input({required: true}) resourceHeader!: ResourceHeaderInput;
+  @Input({required: true}) input!: ResourceHeaderInput;
 
 }

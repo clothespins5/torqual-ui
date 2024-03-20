@@ -30,6 +30,6 @@ export const Example: Story = {
       `,
   }),
   args: {
-    resourceHeader: ResourceHeader.Example.args?.input,
+    input: ResourceHeader.Example.args?.input,
   },
 };
